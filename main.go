@@ -14,6 +14,7 @@ type IndexData struct {
 	Desc  string `json:"desc"`
 }
 
+//湘A小乞丐
 func IsODD(num int) bool {
 	return num%2 == 0
 }
@@ -91,4 +92,5 @@ func main() {
 	if err := server.ListenAndServe(); err != nil {
 		log.Println(err)
 	}
+
 }
